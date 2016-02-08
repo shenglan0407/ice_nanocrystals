@@ -1,0 +1,719 @@
+data_global
+_chemical_name_mineral 'Ice Ih deuterated'
+loop_
+_publ_author_name
+'Peterson S'
+'Levy H'
+_journal_name_full 'Acta Crystallographica'
+_journal_volume 10 
+_journal_year 1957
+_journal_page_first 70
+_journal_page_last 76
+_publ_section_title
+;
+ A Single-Crystal Neutron Diffraction Study of Heavy Ice
+ _cod_database_code 1008748
+;
+_database_code_amcsd 0016627
+_chemical_formula_sum 'O D2'
+_cell_length_a 4.513
+_cell_length_b 4.513
+_cell_length_c 7.355
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 129.731
+_exptl_crystal_density_diffrn      1.025
+_symmetry_space_group_name_H-M 'P 63/m m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x,x-y,1/2-z'
+  '-x+y,-x,1/2-z'
+  'x-y,x,1/2+z'
+  '-y,-x,z'
+  'y,x,-z'
+  'y,-x+y,-z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x+y,y,1/2-z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  'x,x-y,z'
+  '-x,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  '-y,-x,1/2-z'
+  '-y,x-y,1/2-z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,z'
+  'x-y,-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O1   0.33333   0.66667   0.06290   1.00000
+D1   0.33333   0.66667   0.19890   0.50000
+D2   0.45510   0.91020   0.01820   0.50000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 1.84952 1.84952 6.54988 0.92863 0.00000 0.00000
+D1 2.49957 2.49957 8.13939 1.25365 0.00000 0.00000
+D2 2.55374 2.16681 8.35864 1.08340 0.34951 0.69902
+
+data_global
+_chemical_name_mineral 'Ice Ih deuterated'
+loop_
+_publ_author_name
+'Peterson S'
+'Levy H'
+_journal_name_full 'Acta Crystallographica'
+_journal_volume 10 
+_journal_year 1957
+_journal_page_first 70
+_journal_page_last 76
+_publ_section_title
+;
+ A Single-Crystal Neutron Diffraction Study of Heavy Ice
+ _cod_database_code 1008749
+;
+_database_code_amcsd 0016628
+_chemical_formula_sum 'O D2'
+_cell_length_a 4.489
+_cell_length_b 4.489
+_cell_length_c 7.327
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 127.866
+_exptl_crystal_density_diffrn      1.040
+_symmetry_space_group_name_H-M 'P 63/m m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x,x-y,1/2-z'
+  '-x+y,-x,1/2-z'
+  'x-y,x,1/2+z'
+  '-y,-x,z'
+  'y,x,-z'
+  'y,-x+y,-z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x+y,y,1/2-z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  'x,x-y,z'
+  '-x,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  '-y,-x,1/2-z'
+  '-y,x-y,1/2-z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,z'
+  'x-y,-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O1   0.33333   0.66667   0.06200   1.00000
+D1   0.33333   0.66667   0.19800   0.50000
+D2   0.45450   0.90900   0.01720   0.50000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 1.17145 1.17145 4.02517 0.58189 0.00000 0.00000
+D1 1.84522 1.84522 4.92268 0.91878 0.00000 0.00000
+D2 1.75334 1.41645 6.60890 0.70440 0.34633 0.69266
+
+data_global
+_chemical_name_mineral 'Ice II'
+loop_
+_publ_author_name
+'Kamb B'
+_journal_name_full 'Acta Crystallographica'
+_journal_volume 17 
+_journal_year 1964
+_journal_page_first 1437
+_journal_page_last 1449
+_publ_section_title
+;
+ Ice II: A proton-ordered form of ice
+ Note: T = -75 C, P = 0.3 GPa
+;
+_database_code_amcsd 0018367
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'O H2'
+_cell_length_a 7.78
+_cell_length_b 7.78
+_cell_length_c 7.78
+_cell_angle_alpha 113.1
+_cell_angle_beta 113.1
+_cell_angle_gamma 113.1
+_cell_volume 304.251
+_exptl_crystal_density_diffrn      1.180
+_symmetry_space_group_name_H-M 'R -3'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-z,-x,-y'
+  'y,z,x'
+  '-x,-y,-z'
+  'z,x,y'
+  '-y,-z,-x'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+O1   0.27300   0.02400  -0.14600   0.02444
+O2   0.47800   0.75000   0.33200   0.02254
+H1   0.16500   0.06900  -0.19000   0.02660
+H2   0.41300   0.20500  -0.00300   0.02660
+H3   0.71900   0.40100   0.39500   0.02660
+H4   0.74100   0.20300   0.36000   0.02660
+
+data_global
+_chemical_name_mineral 'Ice Ih'
+loop_
+_publ_author_name
+'Bernal J'
+'Fowler R'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 1 
+_journal_year 1933
+_journal_page_first 515
+_journal_page_last 548
+_publ_section_title
+;
+ A Theory of Water and Ionic Solution, with Particular Reference to
+ Hydrogen and Hydroxyl Ions
+ _cod_database_code 1011023
+;
+_database_code_amcsd 0017930
+_chemical_formula_sum 'O H2'
+_cell_length_a 7.82
+_cell_length_b 7.82
+_cell_length_c 7.36
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 389.782
+_exptl_crystal_density_diffrn      0.921
+_symmetry_space_group_name_H-M 'P 63 c m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,z'
+  'x-y,x,1/2+z'
+  '-y,-x,1/2+z'
+  '-y,x-y,z'
+  'x-y,-y,z'
+  '-x,-y,1/2+z'
+  'x,x-y,1/2+z'
+  '-x+y,-x,z'
+  'y,x,z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,1/2+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O1   0.33333   0.00000   0.06250
+O2   0.66667   0.00000   0.93750
+H1   0.33333   0.00000   0.17400
+H2   0.43800   0.00000   0.02600
+H3   0.77200   0.10500   0.97500
+
+data_global
+_chemical_name_mineral 'Ice II'
+loop_
+_publ_author_name
+'McFarlan R'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 4 
+_journal_year 1936
+_journal_page_first 60
+_journal_page_last 64
+_publ_section_title
+;
+ The Structure of Ice II
+ _cod_database_code 1011063
+;
+_database_code_amcsd 0017962
+_chemical_formula_sum 'O H2'
+_cell_length_a 7.8
+_cell_length_b 4.5
+_cell_length_c 5.56
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 195.156
+_exptl_crystal_density_diffrn      1.226
+_symmetry_space_group_name_H-M 'C 2 2 21'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,z'
+  '-x,y,1/2-z'
+  '1/2-x,1/2+y,1/2-z'
+  'x,-y,-z'
+  '1/2+x,1/2-y,-z'
+  '-x,-y,1/2+z'
+  '1/2-x,1/2-y,1/2+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O1   0.16700   0.20500   0.17800
+H1   0.16700   0.00000   0.00000
+H2   0.00000   0.25000   0.25000
+H3   0.25000   0.45500   0.25000
+
+data_global
+_chemical_name_mineral 'Ice III'
+loop_
+_publ_author_name
+'McFarlan R'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 4 
+_journal_year 1936
+_journal_page_first 253
+_journal_page_last 259
+_publ_section_title
+;
+ The Structure of Ice III
+ _cod_database_code 1011024
+;
+_database_code_amcsd 0017931
+_chemical_formula_sum 'O4 H7'
+_cell_length_a 10.2
+_cell_length_b 5.87
+_cell_length_c 7.17
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 429.297
+_exptl_crystal_density_diffrn      1.099
+_symmetry_space_group_name_H-M 'I b a m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,1/2+z'
+  'x,-y,1/2+z'
+  '1/2+x,1/2-y,+z'
+  '-x,y,1/2-z'
+  '1/2-x,1/2+y,-z'
+  '-x,y,1/2+z'
+  '1/2-x,1/2+y,+z'
+  'x,-y,1/2-z'
+  '1/2+x,1/2-y,-z'
+  'x,y,-z'
+  '1/2+x,1/2+y,1/2-z'
+  '-x,-y,z'
+  '1/2-x,1/2-y,1/2+z'
+  '-x,-y,-z'
+  '1/2-x,1/2-y,1/2-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+O1   0.12600   0.21800   0.06250
+H1   0.25000   0.25000   0.00000
+H2   0.12600   0.00000   0.00000
+H3   0.00000   0.21800   0.00000
+H4   0.00000   0.50000   0.25000
+
+data_global
+_chemical_name_mineral 'Ice IV'
+loop_
+_publ_author_name
+'Engelhardt H'
+'Kamb B'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 75 
+_journal_year 1981
+_journal_page_first 5887
+_journal_page_last 5899
+_publ_section_title
+;
+ Structure of ice IV, a metastable high-pressure phase
+ Note: T = 110 K, synthesized at 4-5.5 kb
+;
+_database_code_amcsd 0018368
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'O H2'
+_cell_length_a 7.60
+_cell_length_b 7.60
+_cell_length_c 7.60
+_cell_angle_alpha 70.1
+_cell_angle_beta 70.1
+_cell_angle_gamma 70.1
+_cell_volume 375.394
+_exptl_crystal_density_diffrn      1.275
+_symmetry_space_group_name_H-M 'R -3 c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-x,1/2-z,1/2-y'
+  '-z,-x,-y'
+  '1/2+y,1/2+x,1/2+z'
+  'y,z,x'
+  '1/2-z,1/2-y,1/2-x'
+  '-x,-y,-z'
+  '1/2+x,1/2+z,1/2+y'
+  'z,x,y'
+  '1/2-y,1/2-x,1/2-z'
+  '-y,-z,-x'
+  '1/2+z,1/2+y,1/2+x'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O1   0.38040  -0.11090  -0.23960   1.00000 ?
+O2   0.08550   0.08550   0.08550   1.00000 ?
+H1   0.03000   0.03000   0.03000   0.50000   0.02406
+H2   0.14000   0.18000   0.01000   0.50000   0.02406
+H3   0.21000   0.33000  -0.10000   0.50000   0.02406
+H4   0.30000  -0.01000  -0.28000   0.50000   0.02406
+H5   0.22000   0.11000  -0.34000   0.50000   0.02406
+H6   0.28000   0.41000  -0.02000   0.50000   0.02406
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O1 0.02493 0.01767 0.02275 -0.00508 -0.00944 -0.02227
+O2 0.01815 0.01815 0.01815 -0.01017 -0.01017 -0.01017
+
+data_global
+_chemical_name_mineral 'Ice'
+loop_
+_publ_author_name
+'Fortes A D'
+'Wood I G'
+'Grigoriev D'
+'Alfredsson M'
+'Kipfstuhl S'
+'Knight K S'
+'Smith R I'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 120 
+_journal_year 2004
+_journal_page_first 11376
+_journal_page_last 11379
+_publ_section_title
+;
+ No evidence for large-scale proton ordering in Antarctic ice from powder neutron diffraction
+ Note: T = 100 K
+ Note: known as ice-IH
+;
+_database_code_amcsd 0018366
+_chemical_compound_source 'Kohen Station, Antarctica'
+_chemical_formula_sum 'O H2'
+_cell_length_a 4.497479
+_cell_length_b 4.497479
+_cell_length_c 7.322382
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 128.269
+_exptl_crystal_density_diffrn      0.933
+_symmetry_space_group_name_H-M 'P 63/m m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x,x-y,1/2-z'
+  '-x+y,-x,1/2-z'
+  'x-y,x,1/2+z'
+  '-y,-x,z'
+  'y,x,-z'
+  'y,-x+y,-z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x+y,y,1/2-z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  'x,x-y,z'
+  '-x,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  '-y,-x,1/2-z'
+  '-y,x-y,1/2-z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,z'
+  'x-y,-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O   0.33333   0.66667   0.06140   1.00000
+H1   0.33333   0.66667   0.19640   0.50000
+H2   0.45100   0.90190   0.01790   0.50000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O 0.00790 0.00790 0.00600 0.00400 0.00000 0.00000
+H1 0.02110 0.02110 0.00820 0.01060 0.00000 0.00000
+H2 0.01690 0.01240 0.01740 0.00620 0.00370 0.00750
+
+data_global
+_chemical_name_mineral 'Ice'
+loop_
+_publ_author_name
+'Fortes A D'
+'Wood I G'
+'Grigoriev D'
+'Alfredsson M'
+'Kipfstuhl S'
+'Knight K S'
+'Smith R I'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 120 
+_journal_year 2004
+_journal_page_first 11376
+_journal_page_last 11379
+_publ_section_title
+;
+ No evidence for large-scale proton ordering in Antarctic ice from powder neutron diffraction
+ Note: T = 100 K
+ Note: known as ice-IH
+;
+_database_code_amcsd 0018366
+_chemical_compound_source 'Kohen Station, Antarctica'
+_chemical_formula_sum 'O H2'
+_cell_length_a 4.497479
+_cell_length_b 4.497479
+_cell_length_c 7.322382
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 128.269
+_exptl_crystal_density_diffrn      0.933
+_symmetry_space_group_name_H-M 'P 63/m m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x,x-y,1/2-z'
+  '-x+y,-x,1/2-z'
+  'x-y,x,1/2+z'
+  '-y,-x,z'
+  'y,x,-z'
+  'y,-x+y,-z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x+y,y,1/2-z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  'x,x-y,z'
+  '-x,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  '-y,-x,1/2-z'
+  '-y,x-y,1/2-z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,z'
+  'x-y,-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O   0.33333   0.66667   0.06140   1.00000
+H1   0.33333   0.66667   0.19640   0.50000
+H2   0.45100   0.90190   0.01790   0.50000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O 0.00790 0.00790 0.00600 0.00400 0.00000 0.00000
+H1 0.02110 0.02110 0.00820 0.01060 0.00000 0.00000
+H2 0.01690 0.01240 0.01740 0.00620 0.00370 0.00750
+
+data_global
+_chemical_name_mineral 'Ice VII'
+loop_
+_publ_author_name
+'Kamb B'
+'Davis B L'
+_journal_name_full 'Proceedings of the National Academy of Sciences'
+_journal_volume 52 
+_journal_year 1964
+_journal_page_first 1433
+_journal_page_last 1439
+_publ_section_title
+;
+ Ice VII, the densest form of ice
+ Note: T = 223 K, P = 2.5 GPa
+;
+_database_code_amcsd 0018369
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'O H2'
+_cell_length_a 3.30
+_cell_length_b 3.30
+_cell_length_c 3.30
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 35.937
+_exptl_crystal_density_diffrn      1.665
+_symmetry_space_group_name_H-M 'P n 3 m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+z,1/2-x,1/2+y'
+  '-y,z,-x'
+  '1/2+x,1/2-y,1/2+z'
+  '-z,x,-y'
+  '1/2+y,1/2-z,1/2+x'
+  '-x,y,-z'
+  'x,-z,-y'
+  '1/2-z,1/2+y,1/2+x'
+  'y,-x,-z'
+  '1/2-x,1/2+z,1/2+y'
+  'z,-y,-x'
+  '1/2-y,1/2+x,1/2+z'
+  'x,z,y'
+  '1/2-z,1/2-y,1/2-x'
+  'y,x,z'
+  '1/2-x,1/2-z,1/2-y'
+  'z,y,x'
+  '1/2-y,1/2-x,1/2-z'
+  '1/2+z,1/2+x,1/2-y'
+  '-y,-z,x'
+  '1/2+x,1/2+y,1/2-z'
+  '-z,-x,y'
+  '1/2+y,1/2+z,1/2-x'
+  '-x,-y,z'
+  '1/2-z,1/2+x,1/2+y'
+  'y,-z,-x'
+  '1/2-x,1/2+y,1/2+z'
+  'z,-x,-y'
+  '1/2-y,1/2+z,1/2+x'
+  'x,-y,-z'
+  '-x,z,-y'
+  '1/2+z,1/2-y,1/2+x'
+  '-y,x,-z'
+  '1/2+x,1/2-z,1/2+y'
+  '-z,y,-x'
+  '1/2+y,1/2-x,1/2+z'
+  '-x,-z,y'
+  '1/2+z,1/2+y,1/2-x'
+  '-y,-x,z'
+  '1/2+x,1/2+z,1/2-y'
+  '-z,-y,x'
+  '1/2+y,1/2+x,1/2-z'
+  '1/2-z,1/2-x,1/2-y'
+  'y,z,x'
+  '1/2-x,1/2-y,1/2-z'
+  'z,x,y'
+  '1/2-y,1/2-z,1/2-x'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+O   0.00000   0.00000   0.00000   1.00000
+H   0.17000   0.17000   0.17000   0.50000
+
+data_global
+_chemical_name_mineral 'Ice VI'
+loop_
+_publ_author_name
+'Kamb B'
+_journal_name_full 'Science'
+_journal_volume 150 
+_journal_year 1965
+_journal_page_first 205
+_journal_page_last 209
+_publ_section_title
+;
+ Structure of ice VI
+;
+_database_code_amcsd 0015417
+_chemical_formula_sum '(O H2)'
+_cell_length_a 6.27
+_cell_length_b 6.27
+_cell_length_c 5.79
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 227.622
+_exptl_crystal_density_diffrn      1.577
+_symmetry_space_group_name_H-M 'P 42/n m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-y,1/2-x,1/2+z'
+  'y,x,-z'
+  'y,-x,-z'
+  '1/2-y,1/2+x,1/2+z'
+  'x,-y,z'
+  '1/2-x,1/2+y,1/2-z'
+  '1/2+x,1/2+y,1/2-z'
+  '-x,-y,z'
+  '1/2+y,1/2+x,1/2+z'
+  '-y,-x,-z'
+  '-y,x,-z'
+  '1/2+y,1/2-x,1/2+z'
+  '-x,y,z'
+  '1/2+x,1/2-y,1/2-z'
+  '1/2-x,1/2-y,1/2-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Wat1   0.00000   0.27600   0.38200
+Wat2   0.00000   0.00000   0.00000
+Wat3   0.50000   0.50000   0.50000
+
