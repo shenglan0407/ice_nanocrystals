@@ -31,6 +31,7 @@
 
 import sys
 from math import *
+import numpy as np
 
 # =============================================================================
 # =============================================================================
@@ -108,7 +109,7 @@ def extract_element(label):
 # =============================================================================
 
 # Basic XYZ format.
-def write_xyz(atoms, box, f):
+def write_xyz(atoms, box, center, f):
 
     # Write the number of atoms.
     N = len(atoms)
@@ -129,8 +130,9 @@ def write_xyz(atoms, box, f):
         f.write(' c= %10.5f %10.5f %10.5f\n' % (cx, cy, cz))
     else:
         # box = (ax,by,cz)
-        f.write('Crystal created from CIF file. Box size:') 
-        f.write(' %10.5f %10.5f %10.5f\n' % box)
+        f.write('Crystal created from CIF file. ')
+        f.write ('Center: %10.5f %10.5f %10.5f. ' % (center[0],center[1],center[2]))
+        f.write('Box Size: %10.5f %10.5f %10.5f\n' % box)
 
     # Write atom data (units are Angstroms).
     # The argument "atoms" has format ('Si', x, y, z) for example
@@ -855,6 +857,9 @@ Lx = Nx * La
 Ly = Ny * Lb
 Lz = Nz * Lc
 
+# Keep track of the center of the box
+center = np.array([0.,0.,0.],dtype=float)
+
 for i in range(len(atoms)):
 
     # Get label and fractional coordinates.
@@ -883,6 +888,10 @@ for i in range(len(atoms)):
         zn = (zn + Lz) % Lz
 
     atoms[i] = (label, xn, yn, zn)
+    center = center + np.array([xn,yn,zn])
+
+# compute center of box
+center = center/len(atoms)
 
 
 # Determine the box-vector.
@@ -899,7 +908,7 @@ try:
     fOut = open(fNameOut, 'w')
 
     if (fNameOut.endswith('.xyz')):
-        write_xyz(atoms, box, fOut)
+        write_xyz(atoms, box, center, fOut)
 
     elif (fNameOut.endswith('.lammpstrj')):
         write_lammpstrj(atoms, box, fOut)
