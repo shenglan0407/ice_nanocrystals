@@ -3,6 +3,6 @@
 I will use this repo to document ice nano_crystal simulations
 
 # TO-DO
-- input parameters for build_nanosphere.py
-- ouput .coor format for Thor
+- make more crystals
+- test script for using thor: many oritations, 1 shot, find bragg rings
 - GPU code? 
