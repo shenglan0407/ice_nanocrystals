@@ -838,7 +838,7 @@ if ( abs(V - volume) > 0.1):
 
 
 # Check if we have a rectangular box.
-if (bx < eps  and  cx < eps  and cy < eps):
+if (abs(bx) < eps  and  abs(cx) < eps  and abs(cy) < eps):
     make_rect_box = True
 
 
@@ -854,7 +854,6 @@ print('This gives a volume of %f A^3 (CIF file indicates it is %f A^3)' % (V,vol
 Lx = Nx * La
 Ly = Ny * Lb
 Lz = Nz * Lc
-
 
 for i in range(len(atoms)):
 
