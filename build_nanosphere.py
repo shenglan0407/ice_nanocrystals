@@ -137,6 +137,20 @@ def main(argv):
                 # atomic number of hydrogne
                 Z = 1
             sphere.write('%s %s %s %d\n'%(cols[1],cols[2],cols[3],Z))
+            
+    # write pdb format, input for thor
+    with open('nanosphere/'+str(radius)+'_m'+ice.split('/')[-1].split('.')[0]+'.pdb','w') as sphere:
+        sphere.write('%s        %d \n' % ('MODEL' , 1))
+        count = 0
+        for this_line in atoms:
+            count+=1
+            cols = this_line.split()
+            
+            
+            sphere.write("%6s%5d %4s %3s %1s%4d%1s   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s  \n" % ('HETATM', count,cols[0],'HOH','I',1,' '
+            ,float(cols[1]),float(cols[2]),float(cols[3]), 1.0, 0.0,'O'))
+            
+        sphere.write('%s \n' % 'ENDMDL')
     
     # if not keeping temp.xyz
     if delete_temp:
