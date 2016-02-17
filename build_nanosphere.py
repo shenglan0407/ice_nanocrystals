@@ -29,6 +29,7 @@ def usage():
     print "Builds a spherical ice structure with radius r given a crystollogrphical model"
     print "radius: in angstrom for the final structure."
     print "ice_model: path/to/cif/file, strutucre of unitcell recorded in cif format."
+    print "-n flag saves a copy of .pdb file without hydrogn atoms."
     print "-d flag deletes temp file of intermediate cubic structure. \n"
     print "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * "
     
@@ -38,9 +39,10 @@ def main(argv):
     ice = 'ice_models/1.cif'
     radius = 10.0 # default is 10 angstrom
     delete_temp = False # will not delete temp.xyz by default
+    no_hydeogne = False
     
     try:
-        opts, args = getopt.getopt(argv,"hi:r:d",["ice_model=","radius="])
+        opts, args = getopt.getopt(argv,"hi:r:nd",["ice_model=","radius="])
     except getopt.GetoptError:
         usage()
         sys.exit(2)
@@ -67,6 +69,8 @@ def main(argv):
             except ValueError:
                 print "Radius must be a number. Try again!"
                 exit(2)
+        elif opt in ("-n"):
+            no_hydrogen = True
         elif opt in ("-d"):
             delete_temp = True
 
@@ -143,12 +147,19 @@ def main(argv):
         sphere.write('%s        %d \n' % ('MODEL' , 1))
         count = 0
         for this_line in atoms:
-            count+=1
+            
             cols = this_line.split()
+            if no_hydrogen:
+                if cols[0] == "O":
+                    count+=1            
+                    sphere.write("%6s%5d %4s %3s %1s%4d%1s   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s  \n" % ('HETATM', count,cols[0],'HOH','I',1,' '
+                    ,float(cols[1]),float(cols[2]),float(cols[3]), 1.0, 0.0,cols[0]))
+                else: continue
+            else:
+                count+=1
+                sphere.write("%6s%5d %4s %3s %1s%4d%1s   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s  \n" % ('HETATM', count,cols[0],'HOH','I',1,' '
+                ,float(cols[1]),float(cols[2]),float(cols[3]), 1.0, 0.0,cols[0]))
             
-            
-            sphere.write("%6s%5d %4s %3s %1s%4d%1s   %8.3f%8.3f%8.3f%6.2f%6.2f          %2s  \n" % ('HETATM', count,cols[0],'HOH','I',1,' '
-            ,float(cols[1]),float(cols[2]),float(cols[3]), 1.0, 0.0,'O'))
             
         sphere.write('%s \n' % 'ENDMDL')
     
