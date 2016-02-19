@@ -28,16 +28,16 @@ sphere = "50.0_m1"
 t=mdtraj.load('nanosphere/'+sphere+'.pdb')
 
 # simulation parameters
-n_shots = 500                      # total number of shots to do
-n_molecules = 512                     # the number of molecules to include per shot
+n_shots = 10000                      # total number of shots to do
+n_molecules = 1                     # the number of molecules to include per shot
 q_values = [1.61]  # the |q| values of the rings to sim
 n_phi = 360                         # number of pts around the rings
 
 
-output_file = "simulated_data/"+sphere+"_s"+str(n_shots)+'.hd5f'
+output_file = "simulated_data/"+sphere+"_s"+str(n_shots)+'sc'+'.hdf5'
 while os.path.isfile(output_file):
     print "Will not overwrite old file. Please enter new name:"
-    outpu_file = rawinput()
+    output_file = raw_input()
 
 
 # do the simulations
