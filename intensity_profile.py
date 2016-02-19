@@ -24,13 +24,13 @@ import matplotlib.pyplot as plt
 ##############################################################################
 # Code
 ##############################################################################
-sphere = "50.0_m1"
+sphere = "50.0_m3"
 t=mdtraj.load('nanosphere/'+sphere+'.pdb')
 
 # simulation parameters
 n_shots = 10000                      # total number of shots to do
 n_molecules = 1                     # the number of molecules to include per shot
-q_values = [1.61]  # the |q| values of the rings to sim
+q_values = [2.086]  # the |q| values of the rings to sim
 n_phi = 360                         # number of pts around the rings
 
 
