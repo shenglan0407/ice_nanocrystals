@@ -39,10 +39,11 @@ def main(argv):
     ice = 'ice_models/1.cif'
     radius = 10.0 # default is 10 angstrom
     delete_temp = False # will not delete temp.xyz by default
-    no_hydeogne = False
+    no_hydrogen = False
+    water_radius = None
     
     try:
-        opts, args = getopt.getopt(argv,"hi:r:nd",["ice_model=","radius="])
+        opts, args = getopt.getopt(argv,"hi:r:w:nd",["ice_model=","radius=","water_radius="])
     except getopt.GetoptError:
         usage()
         sys.exit(2)
@@ -69,6 +70,7 @@ def main(argv):
             except ValueError:
                 print "Radius must be a number. Try again!"
                 exit(2)
+
         elif opt in ("-n"):
             no_hydrogen = True
         elif opt in ("-d"):
