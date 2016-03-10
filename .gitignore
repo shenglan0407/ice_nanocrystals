@@ -2,5 +2,5 @@
 .ipynb_checkpoints/
 .DS_Store
 ._.DS_Store
-
+large_simulated_data/
 simulated_data/50.0_m1_s10000sc_2.hdf5
